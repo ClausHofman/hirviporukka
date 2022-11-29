@@ -123,7 +123,7 @@ class MultiPageMainWindow(QMainWindow):
         databaseOperation1 = pgModule.DatabaseOperation()
 
         databaseOperation1.getAllRowsFromTable(
-            self.connectionArguments, 'public.jaetut_lihat')
+            self.connectionArguments, 'public.jaetut_lihat2')
 
         # Check if error has occurred
         if databaseOperation1.errorCode != 0:
